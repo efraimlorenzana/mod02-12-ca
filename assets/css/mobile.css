@@ -1,0 +1,172 @@
+/*
+ *
+ * Mobile Devices
+ *
+ */
+
+ @media only screen and (max-width: 400px)
+ {
+ 	header#mainHeader {
+ 		background-color: violet;
+ 		min-height: 100vh;
+ 		padding: 25px;
+ 	}
+
+ 	header#mainHeader > img {
+ 		width: 100%;
+ 		margin-bottom: 25px;
+ 		border:1px solid black;
+ 	}
+ 	header#mainHeader > nav > ul {
+ 		list-style-type: none;
+ 		text-align: center;
+ 	}
+ 	header#mainHeader > nav > ul > li {
+ 		padding: 25px;
+ 		margin: 5px 0;
+ 		height: 50px;
+ 	}
+ 	header#mainHeader > nav > ul > li > a {
+ 		background-color: lightblue;
+ 		text-decoration: none;
+ 		line-height: 50px;
+ 		display: block;
+ 		letter-spacing: 3px;
+ 	}
+ 	header#mainHeader > nav > ul > li > a:link {
+ 		color:black;
+ 	}
+ 	header#mainHeader > nav > ul > li > a:visited {
+ 		color:black;
+ 	}
+ 	header#mainHeader > nav > ul > li > a:hover {
+ 		background-color: black;
+ 		color:white;
+ 	}
+
+ 	main#wrapper {
+ 		background-color: gray;
+ 		/*margin-left: 20vw;*/
+ 	}
+
+ 	main#wrapper > section > h2 {
+ 		text-align: center;
+ 		padding: 15px;
+ 		letter-spacing: 3px;
+ 		text-transform: uppercase;
+ 	}
+
+ 	section#home {
+ 		background-color: red;
+ 		position: relative;
+ 		padding: 5px;
+ 	}
+ 	section#home > div {
+ 		border:3px solid white;
+ 		padding: 5px;
+ 		text-align: center;
+ 	}
+ 	section#home > div > h3 {
+ 		font-size: 25px;
+ 		padding-top: 10px;
+ 		padding-bottom: 10px;
+ 	}
+
+ 	section#home > div > p {
+ 		padding-bottom: 10px;
+ 	}
+
+ 	section#about {
+ 		background-color: orange;
+ 		min-height: 50vh;
+ 	}
+ 	section#about > h2 {
+ 		padding-top: 10px;
+ 		padding-bottom: 10px;
+ 	}
+ 	section#about > p {
+ 		padding:0 25px 25px;
+ 	}
+
+ 	section#services {
+ 		background-color: yellow;
+ 		padding: 0 15px 15px;
+ 	}
+ 	section#services > h2 {
+ 		padding-top: 10px;
+ 		padding-bottom: 10px;
+ 	}
+ 	section#services > div {
+ 		border:2px solid black;
+ 		padding: 15px;
+ 		width: 100%;
+ 		margin-bottom: 10px;
+ 	}
+ 	section#services > div > img {
+ 		width: 100%;
+ 	}
+ 	section#services > div > h3 {
+ 		text-align: center;
+ 	}
+
+ 	section#projects {
+ 		background-color: green;
+ 		padding: 0 15px 15px;
+ 	}
+ 	section#projects > div {
+ 		border:2px solid black;
+ 		padding: 15px;
+ 		margin-bottom: 10px;
+ 	}
+ 	section#projects > div > h3 {
+ 		text-align: center;
+ 		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 	}
+ 	section#projects > div > img {
+ 		width: 100%;
+ 	}
+
+ 	section#contact {
+ 		background-color: blue;
+ 		min-height: 50vh;
+ 	}
+ 	section#contact > h2 {
+ 		padding-top: 10px;
+ 		padding-bottom: 10px;
+ 	}
+ 	section#contact > p {
+ 		padding:0 25px 25px;
+ 	}
+
+ 	footer#mainFooter {
+ 		background-color: indigo;
+ 		color:yellow;
+ 		padding:15px;
+ 	}
+ 	footer#mainFooter > div#left {
+ 		width: 100%;
+ 		/*float: left;*/
+ 		/*padding: 10px;*/
+ 		font-size:12px;
+ 		text-align: center;
+ 		padding-bottom: 10px;
+ 	}
+ 	footer#mainFooter > div#right {
+ 		width: 100%;
+ 		/*float: left;*/
+ 		/*padding: 22px;*/
+ 	}
+ 	footer#mainFooter > div#right > ul {
+ 		/*list-style-type: none;
+ 		text-align: right;*/
+ 		text-align: center;
+ 	}
+ 	footer#mainFooter > div#right > ul > li {
+ 		display: inline-block;
+ 		padding: 5px;
+ 		padding-left: 5px;
+ 	}
+
+}/* end of media screen */
+}
