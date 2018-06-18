@@ -22,7 +22,7 @@
  		text-align: center;
  	}
  	header#mainHeader > nav > ul > li {
- 		padding: 25px;
+ 		/*padding: 25px;*/
  		margin: 5px 0;
  		height: 50px;
  	}
